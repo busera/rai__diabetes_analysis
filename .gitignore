@@ -3,6 +3,24 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Security
+.env
+.dvcstore_key.json
+
+# IDE Configurations
+.idea/
+.vscode/
+
+# Project data
+#data/
+#*.gtf
+
+# Mac OS
+.DS_Store
+.DS_Store/
+.DS_Store?
+**/.DS_Store
+
 # C extensions
 *.so
 
