@@ -1,3 +1,7 @@
+-------------------------------
+PROJECT IN PROGRESS
+-------------------------------
+
 # Exploring Microsoft Responsible AI Toolkit with Diabetes Dataset
 
 ## Project Description
@@ -22,14 +26,6 @@ This project utilizes the Diabetes dataset from scikit-learn, a well-established
 
 This dataset provides a realistic scenario for applying responsible AI practices, as healthcare applications often involve sensitive data and have significant real-world impacts.
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Installation
 
@@ -42,21 +38,6 @@ cd your-repo-name
 
 # Install required packages
 pip install -r requirements.txt
-```
-
-## Usage
-
-Provide instructions on how to use your project. For example:
-
-```python
-from sklearn.datasets import load_diabetes
-from responsibleai import RAIInsights
-
-# Load the diabetes dataset
-X, y = load_diabetes(return_X_y=True)
-
-# Your code to create and analyze the model using Responsible AI toolkit
-# ...
 ```
 
 ## Features
