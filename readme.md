@@ -28,15 +28,10 @@ This dataset provides a realistic scenario for applying responsible AI practices
 
 
 ## Installation
+1. Clone and unzip the repository
+2. Install required packages
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/your-repo-name.git
-
-# Navigate to the project directory
-cd your-repo-name
-
-# Install required packages
 pip install -r requirements.txt
 ```
 
