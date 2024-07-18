@@ -47,6 +47,11 @@ conda env create -f environment.yaml
 conda activate diabetes
 ´´´
 
+In case the pip packages were not installed during the creation of the conda environment, just execute this command to verify the installation:
+´´´bash
+pip install raiwidgets interpret-community cookiecutter
+´´´
+
 ### Preparing Project File Structure (only for the very first setup)
 
 Change to the project root folder:

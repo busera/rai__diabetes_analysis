@@ -12,6 +12,8 @@ dependencies:
   - jupyter
   - matplotlib
   - seaborn
+  - pip
+  - pyarrow
   - pip:
     - raiwidgets
     - interpret-community
