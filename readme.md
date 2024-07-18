@@ -47,8 +47,12 @@ conda env create -f environment.yaml
 conda activate diabetes
 ´´´
 
-### Preparing Porject File Structure
+### Preparing Project File Structure (only for the very first setup)
+
+Change to the project root folder:
 
 ´´´bash
-cookiecutter https://github.com/drivendata/cookiecutter-data-science
+cookiecutter -c v1 https://github.com/drivendata/cookiecutter-data-science
+#ccds https://github.com/drivendata/cookiecutter-data-science
 ´´´
+
