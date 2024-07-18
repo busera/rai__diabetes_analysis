@@ -27,14 +27,6 @@ This project utilizes the Diabetes dataset from scikit-learn, a well-established
 This dataset provides a realistic scenario for applying responsible AI practices, as healthcare applications often involve sensitive data and have significant real-world impacts.
 
 
-## Installation
-1. Clone and unzip the repository
-2. Install required packages
-
-```bash
-pip install -r requirements.txt
-```
-
 ## Features
 
 - Utilizes the Microsoft Responsible AI toolkit for comprehensive model analysis
@@ -43,3 +35,20 @@ pip install -r requirements.txt
 - Implements interpretability techniques for model transparency
 - Conducts error analysis to improve model performance
 
+## Preparation and Installation
+
+### Preparing Conda Environment
+
+´´´bash
+conda env create -f environment.yaml
+´´´
+
+´´´bash
+conda activate diabetes
+´´´
+
+### Preparing Porject File Structure
+
+´´´bash
+cookiecutter https://github.com/drivendata/cookiecutter-data-science
+´´´
