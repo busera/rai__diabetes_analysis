@@ -39,25 +39,26 @@ This dataset provides a realistic scenario for applying responsible AI practices
 
 ### Preparing Conda Environment
 
-´´´bash
+```bash
 conda env create -f environment.yaml
-´´´
+```
 
-´´´bash
+```bash
 conda activate diabetes
-´´´
+```
 
 In case the pip packages were not installed during the creation of the conda environment, just execute this command to verify the installation:
-´´´bash
+
+```bash
 pip install raiwidgets interpret-community cookiecutter
-´´´
+```
 
 ### Preparing Project File Structure (only for the very first setup)
 
 Change to the project root folder:
 
-´´´bash
+```bash
 cookiecutter -c v1 https://github.com/drivendata/cookiecutter-data-science
 #ccds https://github.com/drivendata/cookiecutter-data-science
-´´´
+```
 
