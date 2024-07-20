@@ -1,4 +1,5 @@
 -------------------------------
+
 PROJECT IN PROGRESS
 -------------------------------
 
@@ -15,17 +16,21 @@ This project utilizes the Diabetes dataset from scikit-learn, a well-established
 - **Source**: The dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases.
 - **Target**: The target variable is a quantitative measure of disease progression one year after baseline.
 - **Features**: The dataset contains 10 baseline variables:
-  - Age
-  - Sex
-  - Body Mass Index (BMI)
-  - Average Blood Pressure
-  - Six blood serum measurements
+  - age: Age in years
+  - sex: Sex, mapped to 0 for female and 1 for male
+  - bmi: Body mass index
+  - bp: Average blood pressure
+  - s1: Total serum cholesterol
+  - s2: Low-density lipoproteins
+  - s3: High-density lipoproteins
+  - s4: Total cholesterol / HDL
+  - s5: Log of serum triglycerides level
+  - s6: Blood sugar level
 - **Samples**: It contains 442 samples.
 - **Task**: The primary task is regression, predicting the quantitative measure of disease progression.
 - **Ethical Considerations**: As this dataset relates to health information, it's crucial to consider privacy and fairness implications in its use and analysis.
 
 This dataset provides a realistic scenario for applying responsible AI practices, as healthcare applications often involve sensitive data and have significant real-world impacts.
-
 
 ## Features
 
@@ -61,4 +66,3 @@ Change to the project root folder:
 cookiecutter -c v1 https://github.com/drivendata/cookiecutter-data-science
 #ccds https://github.com/drivendata/cookiecutter-data-science
 ```
-
