@@ -53,12 +53,5 @@ In case the pip packages were not installed during the creation of the conda env
 pip install raiwidgets interpret-community cookiecutter
 ```
 
-### Preparing Project File Structure (only for the very first setup)
 
-Change to the project root folder:
-
-```bash
-cookiecutter -c v1 https://github.com/drivendata/cookiecutter-data-science
-#ccds https://github.com/drivendata/cookiecutter-data-science
-```
 
